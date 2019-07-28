@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+            color:white
+        }
+
+        h2 {
+            color:white
+        }
+        
+        div {
+            color:white
+        }
+
+        a {
+            color:white;
+        }
+      #jb-container {
+        width: 940px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-header {
+        padding: 120px;
+        margin-bottom: 10px;
+        text-align: center;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-content {
+        width: 580px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-sidebar {
+        width: 270px;
+        padding: 20px;
+        margin-bottom: 40px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #jb-footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 480px ) {
+        #jb-container {
+          width: auto;
+        }
+        #jb-content {
+          float: none;
+          width: auto;
+        }
+        #jb-sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body bgcolor="blue">
+    <div id="jb-container">
+      <div id="jd-header">
+        <h3 align="center">010-1234-2567</h3>
+        <div id="jp-sidebar">
+          <h6><a href="index.html">BacktoMain</a></h6>
+          <h6><a href="contect.html">BacktoContect</a></h6>
+        </div>
+      </div>
+  </body>
+</html>
